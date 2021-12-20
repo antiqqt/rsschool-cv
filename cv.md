@@ -6,3 +6,10 @@
 * ***GitHub:*** [antiqqt](https://github.com/antiqqt)
 * ***Telegram:*** [antiqqz](https://t.me/antiqqz)
 * ***RS School discord:*** Anton Pomogaev (@antiqqt)
+
+## Skills
+* HTML/CSS
+* Javascript
+* Git
+* Figma
+* C, Python *(basic knowledge)*
