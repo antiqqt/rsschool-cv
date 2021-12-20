@@ -1,1 +1,1 @@
-# rsschool-cv
+https://antiqqt.github.io/rsschool-cv/cv
