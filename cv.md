@@ -35,26 +35,6 @@ The code below solves this interesting [kata](https://www.codewars.com/kata/559a
 function perimeter(n) {
     return 4 * fib(n);
 }
-
-    
-function fib(n) {
-  let [a, b] = [0, 1];
-  let temp = [];
-  for (let i = 0; i < n + 1; i++) {
-    b = a + b; 
-    a = b - a;
-    temp.push(a);
-  }
-  return temp.reduce((acc, v) => acc + v);
-}
-
-The code below solves this interesting [kata](https://www.codewars.com/kata/559a28007caad2ac4e000083/javascrip)(problem) from [CodeWars](https://www.codewars.com/)
-
-```
-function perimeter(n) {
-    return 4 * fib(n);
-}
-
     
 function fib(n) {
   let [a, b] = [0, 1];
