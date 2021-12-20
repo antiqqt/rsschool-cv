@@ -29,7 +29,7 @@
 
 ## Code example
 
-The code below solves this interesting [kata](https://www.codewars.com/kata/559a28007caad2ac4e000083/javascrip)(problem) from [CodeWars](https://www.codewars.com/)
+The code below solves [this](https://www.codewars.com/kata/559a28007caad2ac4e000083/javascript) interesting ***kata*** (problem) from [CodeWars](https://www.codewars.com/)
 
 ```
 function perimeter(n) {
