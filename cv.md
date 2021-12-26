@@ -7,6 +7,13 @@
 * ***Telegram:*** [antiqqz](https://t.me/antiqqz)
 * ***RS School discord:*** Anton Pomogaev (@antiqqt)
 
+## About me
+I am a *22* years old, aspiring web-developer.
+
+In my last year of university I came across the *CS50* course made by Harvard and fell in love with it. As I approached the end of the course, I decided to learn more about the field of frontend-development. I'm here to hone my skills of HTML, CSS, JS and hopefully to get proper development experience.
+
+I'm a *quick-learner*, a *team player* and I love to make clean and accessible interfaces.
+
 ## Skills
 * HTML/CSS
 * Javascript
@@ -16,7 +23,7 @@
 
 ## Education
 * ***Saint Petersburg State University***
-    * International Relations major
+    * International relations major
 * ***Online Courses***
     * HTML/CSS/JS tutorials on [w3schools.com](https://www.w3schools.com/)
     * JS Manual on [javascript.info](https://javascript.info/)
