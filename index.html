@@ -42,7 +42,7 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
+      <div class="container main-container">
         <section class="section" id="profile">
           <h1 class="section-title">Anton Pomogaev</h1>
         </section>
@@ -116,7 +116,7 @@
           </ul>
         </section>
         <section class="section" id="code">
-          <h2 class="section-title">Code example</h2>
+          <h2 class="section-title code-section-title">Code example</h2>
           <p>
             The code below solves
             [this](https://www.codewars.com/kata/559a28007caad2ac4e000083/javascript)
@@ -131,7 +131,7 @@
             function fib(n) {
               let [a, b] = [0, 1];
               let temp = [];
-              for (let i = 0; i < n + 1; i++) {
+              for (let i = 0; i &lt; n + 1; i++) {
                 b = a + b; 
                 a = b - a;
                 temp.push(a);
@@ -143,7 +143,11 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container footer-container">
+        <a href="https://github.com/antiqqt" class="footer-github" target="_blank">My GitHub</a>
+        <p class="footer-year">2022</p>
+        <a href="https://rs.school/js-stage0/" class="footer-rss" target="_blank"></a>
+      </div>
     </footer>
   </body>
 </html>
