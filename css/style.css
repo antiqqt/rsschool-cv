@@ -1,3 +1,4 @@
+/* General */
 :root {
   --main-bg-color: #e3e0f3;
   --secondary-bg-color: #aca7cb;
@@ -5,14 +6,35 @@
   --contrast-color: #fddad7;
 
   font-family: "Arimo", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.bold-text {
+  font-weight: 700;
 }
 
 body {
@@ -78,17 +100,58 @@ body {
 .section {
   width: 50%;
   margin-bottom: 1rem;
-  padding: 20px;
+  padding: 7%;
+  padding-bottom: 35px;
 }
 
-.section#code {
+.section-title {
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--secondary-bg-color);
+}
+
+.section-list {
+  list-style: none;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  padding-top: 50px;
+}
+
+.section-profile-photo {
+  display: block;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.section-profile-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-profile-title {
+  border: none;
+}
+
+
+.section-code {
   width: 100%;
   margin: 0 auto;
 }
 
-.code-section-title {
+
+.section-code-title {
   text-align: center;
 }
+
 
 /* Footer */
 footer {
@@ -104,6 +167,7 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .footer-github,
@@ -122,17 +186,25 @@ footer {
   top: -4px;
   width: 48px;
   height: 48px;
-  background-image: url(/assets/img/github-icon.svg);
+  background-image: url("../assets/img/github-icon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 0;
 }
 
+
 .footer-rss {
   width: 96px;
   height: 32px;
   padding-top: 40px;
-  background-image: url("/assets/img/rs_school_logo.svg");
+  background-image: url("../assets/img/rs_school_logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+/* Media */
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }

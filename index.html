@@ -26,11 +26,13 @@
               <a href="#about" class="nav-link">About me</a>
             </li>
             <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
               <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-              <a href="#education" class="nav-link">Education</a>
-            </li>
+              <a href="#projects" class="nav-link">Projects</a>
             <li class="nav-item">
               <a href="#languages" class="nav-link">Languages</a>
             </li>
@@ -43,63 +45,74 @@
     </header>
     <main class="main">
       <div class="container main-container">
-        <section class="section" id="profile">
-          <h1 class="section-title">Anton Pomogaev</h1>
+        <section class="section section-profile" id="profile">
+          <img
+            src="./assets/img/photo_cv.jpg"
+            alt="Photo"
+            class="section-profile-photo"
+          />
+          <div class="section-profile-titles">
+            <h1 class="section-title section-profile-title">Anton Pomogaev</h1>
+            <h3 class="section-subtitle">Junior Front-End developer</h3>
+          </div>
         </section>
         <section class="section" id="contacts">
           <h2 class="section-title">Contact information</h2>
-          <ul>
-            <li>***Phone:*** 8 (911) 812-00-69</li>
-            <li>***Email:*** antonpomogaev@gmail.com</li>
-            <li>***GitHub:*** [antiqqt](https://github.com/antiqqt)</li>
-            <li>***Telegram:*** [antiqqz](https://t.me/antiqqz)</li>
-            <li>***RS School discord:*** Anton Pomogaev (@antiqqt)</li>
+          <ul class="section-list">
+            <li class="section-list-item">
+              <span class="bold-text">Phone</span>: 8 (911) 812-00-69
+            </li>
+            <li class="section-list-item">
+              <span class="bold-text">Email</span>: antonpomogaev@gmail.com
+            </li>
+            <li class="section-list-item">
+              <span class="bold-text">GitHub</span>
+              :[antiqqt](https://github.com/antiqqt)
+            </li>
+            <li class="section-list-item">
+              <span class="bold-text">Telegram</span>
+              :[antiqqz](https://t.me/antiqqz)
+            </li>
+            <li class="section-list-item">
+              <span class="bold-text">RS School discord</span>: Anton Pomogaev
+              (@antiqqt)
+            </li>
           </ul>
         </section>
         <section class="section" id="about">
           <h2 class="section-title">About me</h2>
           <p>
-            I am a *22* years old, aspiring web-developer. In my last year of
-            university I came across the *CS50* course made by Harvard and fell
-            in love with it. As I approached the end of the course, I decided to
+            I am a 22 years old, aspiring web-developer. In my last year of
+            university I came across the CS50 course made by Harvard and fell in
+            love with it. As I approached the end of the course, I decided to
             learn more about the field of frontend-development.
           </p>
           <p>
             I'm here to hone my skills of HTML, CSS, JS and hopefully to get
-            proper development experience. I'm a *quick-learner*, a *team
-            player* and I love to make clean and accessible interfaces.
+            proper development experience. I'm a quick-learner, a team player
+            and I love to make clean and accessible interfaces.
           </p>
-        </section>
-        <section class="section" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <ul>
-            <li>HTML/CSS</li>
-            <li>Javascript</li>
-            <li>Git</li>
-            <li>Figma</li>
-            <li>C, Python (basic knowledge)</li>
-          </ul>
         </section>
         <section class="section" id="education">
           <h2 class="section-title">Education</h2>
-          <ul>
-            <li>
+          <ul class="section-list">
+            <li class="section-list-item">
               Saint Petersburg State University
-              <ul>
-                <li>International relations major</li>
+              <ul class="section-list nested">
+                <li class="section-list-item nested">International relations major</li>
               </ul>
             </li>
-            <li>
+            <li class="section-list-item">
               Online Courses
-              <ul>
-                <li>
+              <ul class="section-list nested">
+                <li class="section-list-item nested">
                   HTML/CSS/JS tutorials on
                   [w3schools.com](https://www.w3schools.com/)
                 </li>
-                <li>
+                <li class="section-list-item nested">
                   JS Manual on [javascript.info](https://javascript.info/)
                 </li>
-                <li>
+                <li class="section-list-item nested">
                   CS50's Introduction to Computer Science on
                   [edX](https://cs50.harvard.edu/x/2021/) (2021)
                 </li>
@@ -107,16 +120,31 @@
             </li>
           </ul>
         </section>
-        <section class="section" id="languages">
-          <h2 class="section-title">Languages</h2>
-          <ul>
-            <li>English - Upper-intermediate/Advanced (B2 Certificate)</li>
-            <li>French - Intermediate</li>
-            <li>Russian - Native</li>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-list-item">HTML/CSS</li>
+            <li class="section-list-item">Javascript</li>
+            <li class="section-list-item">Git</li>
+            <li class="section-list-item">Figma</li>
+            <li class="section-list-item">C, Python (basic knowledge)</li>
           </ul>
         </section>
-        <section class="section" id="code">
-          <h2 class="section-title code-section-title">Code example</h2>
+        <section class="section" id="projects">
+          <h2 class="section-title">My projects</h2>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list">
+            <li class="section-list-item">
+              English - Upper-intermediate/Advanced (B2 Certificate)
+            </li>
+            <li class="section-list-item">French - Intermediate</li>
+            <li class="section-list-item">Russian - Native</li>
+          </ul>
+        </section>
+        <section class="section section-code" id="code">
+          <h2 class="section-title section-code-title">Code example</h2>
           <p>
             The code below solves
             [this](https://www.codewars.com/kata/559a28007caad2ac4e000083/javascript)
@@ -144,9 +172,18 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a href="https://github.com/antiqqt" class="footer-github" target="_blank">My GitHub</a>
-        <p class="footer-year">2022</p>
-        <a href="https://rs.school/js-stage0/" class="footer-rss" target="_blank"></a>
+        <a
+          href="https://github.com/antiqqt"
+          class="footer-github"
+          target="_blank"
+          >My GitHub</a
+        >
+        <span class="footer-year">2022</span>
+        <a
+          href="https://rs.school/js-stage0/"
+          class="footer-rss"
+          target="_blank"
+        ></a>
       </div>
     </footer>
   </body>
