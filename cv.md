@@ -29,6 +29,9 @@ I'm a *quick-learner*, a *team player* and I love to make clean and accessible i
     * JS Manual on [javascript.info](https://javascript.info/)
     * CS50's Introduction to Computer Science on [edX](https://cs50.harvard.edu/x/2021/) (2021)
 
+## My projects
+* [Order Summary Component](https://github.com/antiqqt/order_summary_component) challenge from [www.frontendmentor.io](https://www.frontendmentor.io/)
+
 ## Languages
 * ***English*** - Upper-intermediate/Advanced (B2 Certificate)
 * ***French*** - Intermediate
